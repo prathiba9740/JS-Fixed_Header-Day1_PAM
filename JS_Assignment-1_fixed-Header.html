@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <style>
+            body {
+                margin: 0px;
+                background-color: rgb(226, 245, 226);
+            }
+
+            header {
+                height: 60px;
+                background-color: darkblue;
+                width: 100%;
+                font-size: 20px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            li {
+                display: inline;
+                margin-right: 30px;
+            }
+
+            li>a:hover {
+                /* background-color: rgb(253, 230, 190); */
+                color: red;
+            }
+
+            li>a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .register {
+                align-self: center;
+            }
+
+            button {
+                padding: 5px 10px;
+                margin-right: 20px;
+                background-color: darkblue;
+                border: 3px solid red;
+                border-radius: 1em;
+                color: red;
+                font-size: 16px;
+            }
+
+            button:hover {
+                color: white;
+                background-color: red;
+                border-color: white;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="head">
+                <ul style="list-style:none;">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Address</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="register">
+                <button> Signup </button>
+                <button> Login </button>
+            </div>
+        </header>
+    </body>
+</html>
